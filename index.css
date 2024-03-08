@@ -1,0 +1,132 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+/* .border{
+    border: 2px solid;
+    margin: 3px;
+} */
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.left{
+    width: 25vw;
+    padding: 5px;
+}
+.right{
+    width: 75vw;
+    padding-top: 10px;
+}
+
+/* .home{
+    padding: 10px;
+} */
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top: 14px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.logo1{
+    display: flex;
+    gap: 13px;
+    width: 14px;
+    list-style: none;
+    padding-top: 14px;
+}
+
+.plus{
+    display: flex;
+    gap: 30px;
+}
+
+.bg-play{
+    background-color: rgb(40, 39, 39);
+    color: dark white;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.nav {
+    padding: 10px;
+}
+
+.button{
+    padding: 10px;
+}
+
+/* .create{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.cardcontainer{
+    display: flex;
+}
+
+.image{
+    height: 40%;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.card{
+    width: calc(23%); 
+    background-color: rgb(34, 34, 34);
+    height: 40%;
+}
+
+.spot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spots{
+    display: flex;
+}
