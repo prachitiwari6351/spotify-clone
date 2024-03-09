@@ -130,3 +130,17 @@
 .spots{
     display: flex;
 }
+
+@media screen and (max-width: 600px){
+    .left{
+        /* width: 25vw;
+        padding: 5px; */
+        width: 500vw;
+    }
+    .right{
+        width: 500vw;
+    }
+    .card{
+        width: 50vw
+    }
+}
