@@ -108,6 +108,8 @@
 
 .cardcontainer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .image{
@@ -131,16 +133,25 @@
     display: flex;
 }
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .left{
-        /* width: 25vw;
-        padding: 5px; */
-        width: 500vw;
+        width: 700vw;
     }
     .right{
-        width: 500vw;
+        width: 700vw;
     }
     .card{
         width: 50vw
     }
-}
+    .header bg-grey{
+        display: flex;
+    }
+    .right bg-grey{
+        display: flex;
+    }
+    nav{
+        display: flex;
+    }
+   
+    
+} */
