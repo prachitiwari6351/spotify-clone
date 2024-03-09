@@ -1,29 +1,32 @@
-*{
-   margin: 0;
-   padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
 }
+
 /* .border{
     border: 2px solid;
     margin: 3px;
 } */
 
-.flex{
+.flex {
     display: flex;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.items-center{
+.items-center {
     align-items: center;
 }
 
-.left{
+.left {
+    /* display: none; */
     width: 25vw;
     padding: 5px;
 }
-.right{
+
+.right {
     width: 75vw;
     padding-top: 10px;
 }
@@ -32,7 +35,7 @@
     padding: 10px;
 } */
 
-.home ul li{
+.home ul li {
     display: flex;
     gap: 15px;
     width: 14px;
@@ -40,31 +43,32 @@
     padding-top: 14px;
 }
 
-.bg-black{
+.bg-black {
     background-color: black;
     color: white;
 }
 
-.invert{
+.invert {
     filter: invert(1);
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #121212;
 }
 
-.rounded{
+.rounded {
     border-radius: 7px;
 }
-.p-1{
+
+.p-1 {
     padding: 10px;
 }
 
-.m-1{
+.m-1 {
     margin: 5px;
 }
 
-.logo1{
+.logo1 {
     display: flex;
     gap: 13px;
     width: 14px;
@@ -72,22 +76,22 @@
     padding-top: 14px;
 }
 
-.plus{
+.plus {
     display: flex;
     gap: 30px;
 }
 
-.bg-play{
+.bg-play {
     background-color: rgb(40, 39, 39);
     color: dark white;
 }
 
-.btn{
+.btn {
     background-color: white;
     color: black;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(34, 34, 34);
@@ -97,7 +101,7 @@
     padding: 10px;
 }
 
-.button{
+.button {
     padding: 10px;
 }
 
@@ -106,27 +110,30 @@
     justify-content: space-between;
 } */
 
-.cardcontainer{
+.cardcontainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.image{
-    height: 40%;
-    width: 90%;
+.image {
+    height: 70%;
+    /* width: 90%; */
     border-radius: 15px;
 }
 
-.card{
-    width: calc(23%); 
+.card {
+    width: calc(23%);
     background-color: rgb(34, 34, 34);
-    height: 40%;
+    height: 276px;
+    width: 195px;
 }
 
-.spot{
+.spot {
     display: flex;
     justify-content: space-between;
 }
 
-.spots{
+.spots {
     display: flex;
 }

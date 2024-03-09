@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .left {
+        display: none;
+        /* Set to 0 to hide the left side on smaller screens */
+    }
+
+    .right {
+        width: 100vw;
+    }
+}
+
+/* Media query for screens with a maximum width of 480 pixels (typical mobile width) */
+@media (max-width: 480px) {
+    .left {
+        display: none;
+        /* Set to 0 to hide the left side on smaller screens */
+    }
+
+    .right {
+        width: 100vw;
+    }
+}
